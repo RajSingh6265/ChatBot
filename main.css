@@ -1,0 +1,96 @@
+body {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.stApp {
+    padding-top: 20px;
+}
+
+.big-font {
+    font-size: 40px !important;
+    color: #FFD700;  /* Gold */
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+    font-family: 'Courier New', monospace;
+    position: relative;
+    z-index: 2;
+}
+
+.medium-font {
+    font-size: 30px !important;
+    color: #ffffff;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    position: relative;
+    z-index: 2;
+}
+
+.small-font {
+    font-size: 14px !important;
+    color: #dddddd;
+    position: relative;
+    z-index: 2;
+}
+
+.login-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+.response-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    color: white;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    position: relative;
+    z-index: 2;
+}
+
+.stTextInput input {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: relative;
+    z-index: 2;
+}
+
+.stButton > button {
+    background-color: #FFD700;
+    color: #000000;
+    border: none;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 2;
+}
+
+.stButton > button:hover {
+    background-color: #FFA500;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+/* Ensure the robot image is visible */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    position: relative;
+    z-index: 2;
+}
+
+/* Style for the search box */
+.stTextInput > div > div > input {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+/* Ensure sidebar is visible */
+.css-1d391kg {
+    background-color: rgba(0, 0, 0, 0.7);
+}
