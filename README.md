@@ -40,6 +40,10 @@ Sarah is an AI-powered chatbot built with Streamlit and powered by the Groq API.
 Run the Streamlit app:
 Visit `http://localhost:8501` in your web browser to interact with Sarah.
 
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 ## Acknowledgements
 
 - Groq for their powerful AI API
